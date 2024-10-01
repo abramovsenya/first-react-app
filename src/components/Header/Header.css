@@ -1,0 +1,25 @@
+.header {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+}
+.nav__list {
+	display: flex;
+	gap: 60px;
+}
+
+.nav__list-el {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.nav__login {
+	display: flex;
+	gap: 30px;
+}

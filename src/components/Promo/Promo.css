@@ -1,0 +1,30 @@
+.promo {
+	margin-top: -75px;
+	background-image: url(/src/images/img/img.png);
+	background-size: 100%;
+	width: 100%;
+	height: 682px;
+	background-size: cover;
+}
+.promo__content {
+	padding-top: 160px;
+	text-align: center;
+}
+
+.promo__description {
+	font-size: 30px;
+	font-weight: 500;
+	padding-top: 140px;
+}
+.promo__title {
+	font-size: 200px;
+	font-weight: 700;
+	margin: 10px 0 84px 0;
+}
+.promo__btn {
+	background-color: #151124;
+	color: #fff;
+	font-size: 24px;
+	padding: 20px 28px;
+	font-weight: 600;
+}

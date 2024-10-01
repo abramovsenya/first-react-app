@@ -1,0 +1,25 @@
+.facts {
+	margin-top: 60px;
+}
+
+.facts__points {
+	display: flex;
+	justify-content: space-between;
+}
+.facts__points-point {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.facts__description {
+	font-weight: 600;
+}
+.facts__description-title {
+	color: #081323;
+	font-size: 28px;
+}
+.facts__description-about {
+	color: #828282;
+	font-size: 18px;
+	margin-top: 14px;
+}
