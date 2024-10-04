@@ -4,8 +4,6 @@ import Product from '/src/components/Product.jsx'; // Корректный им�
 import '/src/components/Products/Products.css';
 
 function Products() {
-	console.log(CardItem); // Выводим CardItem в консоль перед использованием
-
 	return (
 		<section className='products'>
 			<div className='products__content container'>

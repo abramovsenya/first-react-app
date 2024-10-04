@@ -1,0 +1,22 @@
+.gallery {
+	background-color: #f8f8f8;
+	padding: 60px 0;
+}
+.gallery__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.gallery__content-left {
+}
+.gallery__title {
+	font-size: 55px;
+	color: #1b1a1f;
+	margin-bottom: 90px;
+}
+.gallery__content-right {
+}
+
+.gallery__content-right-down {
+	margin-top: 21px;
+}

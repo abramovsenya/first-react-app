@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
-// import { ICONS } from '/src/assets/assets.js';
 
 function Header() {
 	return (
@@ -8,19 +8,20 @@ function Header() {
 			<nav className='nav'>
 				<ul className='nav__list'>
 					<li>
-						<a className='nav__list-el' href='#'>
+						<Link className='nav__list-el' to='/'>
 							About
-						</a>
+						</Link>
 					</li>
 					<li>
-						<a className='nav__list-el' href='#'>
+						<Link className='nav__list-el' to='/shop'>
 							Shop
-						</a>
+						</Link>{' '}
+						{/* Замените href на to */}
 					</li>
 					<li>
-						<a className='nav__list-el' href='#'>
+						<Link className='nav__list-el' to='#'>
 							Contact
-						</a>
+						</Link>
 					</li>
 				</ul>
 				<ul className='nav__login'>

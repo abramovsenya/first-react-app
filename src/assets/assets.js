@@ -1,15 +1,3 @@
-// export const IMAGES = {
-// 	LOGO: require('/src/images/icons/Bag.svg'),
-// 	IMG: require('/src/images/img'),
-// };
-// export const ICONS = [
-// 	{
-// 		// SEARCH: require('/src/images/icons/search.svg'),
-// 		name: 'search',
-// 		src: '/src/images/icons/search.svg',
-// 	},
-// ];
-
 import Adi2 from '/src/images/img/adi2.png';
 import Adi7 from '/src/images/img/Adi7.png';
 import Anta1 from '/src/images/img/anta1.png';

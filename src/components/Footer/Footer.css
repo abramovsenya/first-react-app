@@ -1,0 +1,63 @@
+.footer {
+	background-color: #151124;
+	padding: 55px;
+}
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 55px 0; */
+}
+
+.footer__left {
+	max-width: 450px;
+}
+.subscribe-form {
+	padding: 12px 15px;
+	background-color: #444150;
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+	justify-content: space-between;
+}
+
+.subscribe-form__input {
+	font-size: 16px;
+	font-weight: 500;
+	color: white; /* текст белого цвета */
+	background: none; /* убрать задний фон */
+	border: none; /* убрать границу */
+}
+
+.subscribe-form__input::placeholder {
+	color: white; /* цвет плейсхолдера */
+}
+
+.footer__list {
+	display: flex;
+	margin-top: 25px;
+	gap: 25px;
+}
+.footer__list-item {
+	/* padding: 15px;
+	border-radius: 50%;
+	background-color: #444150; */
+}
+
+.footer__list-company {
+	color: #fff;
+}
+.footer__list-company-item {
+	font-size: 21px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.footer__list-support {
+	color: #fff;
+}
+.footer__list-support-item {
+	font-size: 21px;
+	color: #fff;
+	margin-top: 20px;
+}

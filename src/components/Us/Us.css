@@ -1,0 +1,53 @@
+.us {
+	margin-top: 114px;
+	background-color: #f8f8f8;
+}
+.us__content {
+	padding-top: 50px;
+}
+
+.us__content-upper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.us__content-text {
+}
+.us__content-text-title {
+	font-size: 44px;
+	color: #1b1a1f;
+	font-weight: 600;
+}
+.us__content-text-about {
+	font-size: 24px;
+	color: #2f2e30;
+	max-width: 500px;
+	margin-top: 24px;
+	margin-bottom: 18px;
+}
+.us__content-text-btn {
+	font-weight: 600;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #2f2e30;
+}
+.us__list {
+	display: flex;
+	justify-content: space-between;
+}
+.us__list-puncts {
+	max-width: 350px;
+	margin-top: 64px;
+}
+.us__list-puncts-name {
+	color: #1b1a1f;
+	font-weight: 600;
+	font-size: 30px;
+}
+.us__list-puncts-about {
+	margin-top: 24px;
+	font-size: 24px;
+	font-weight: 300;
+	color: #2f2e30;
+	padding-bottom: 50px;
+}
